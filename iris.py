@@ -6,8 +6,18 @@
 
 #Import the libraries needed to explore the data set
  import numpy as np
- import pands as pd 
+ import pandas as pd 
 
-data = ("iris.csv")
-names=['sepal-length' ,'sepal-width', 'petal-length','petal-width','species']
+#data = ("iris.csv")
+#names=['sepal-length' ,'sepal-width', 'petal-length','petal-width','species']
 
+
+# read in Iris as data frame
+df = pd.read_csv('/Iris.csv')
+
+#as an array 
+data=np.genfromtext()
+
+# from the external repository:
+import Iris 
+iris = datasets.load_iris()
