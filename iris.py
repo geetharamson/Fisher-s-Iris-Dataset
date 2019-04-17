@@ -18,6 +18,17 @@ df = pd.read_csv('/Iris.csv')
 #as an array 
 data=np.genfromtext()
 
-# from the external repository:
-import Iris 
-iris = datasets.load_iris()
+Loading the Iris dataset from Scikit-learn
+
+Data as table :
+A basic table is a two-dimensional grid of data, 
+in which the rows represent individual elements of the dataset, 
+and the columns represent quantities related to each of these elements
+Features matrix :
+    This table layout makes clear that the information
+can be thought of as a two-dimensional numerical array or matrix, called the
+features matrix with shape.
+$ python
+>>> from sklearn import datasets
+>>> iris = datasets.load_iris()
+>>> digits = datasets.load_digits()
