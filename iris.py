@@ -7,4 +7,7 @@
 #Import the libraries needed to explore the data set
  import numpy as np
  import pands as pd 
- import matplotlib.pyplot as plt
+
+data = ("iris.csv")
+names=['sepal-length' ,'sepal-width', 'petal-length','petal-width','species']
+
