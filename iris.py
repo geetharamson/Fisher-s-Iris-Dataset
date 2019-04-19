@@ -29,7 +29,20 @@ Loading the Iris dataset from Scikit-learn
     #This table layout makes clear that the information
 #can be thought of as a two-dimensional numerical array or matrix, called the
 #features matrix with shape.
-$ python
->>> from sklearn import datasets
->>> iris = datasets.load_iris()
->>> digits = datasets.load_digits()
+
+
+### Sklearn ###  
+#Initialise ipython
+ # from sklearn import datasets
+ from sklearn import datasets
+    
+ # From the dataset load iris 
+ iris = datasets.load_iris()
+ #print iris
+ print (iris)
+    
+
+
+    
+    
+    
