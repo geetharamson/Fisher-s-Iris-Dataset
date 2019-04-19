@@ -39,3 +39,4 @@ https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-th
 # Reference 
 
 http://archive.ics.uci.edu/ml/datasets/Iris
+https://www.youtube.com/watch?v=hd1W4CyPX58
