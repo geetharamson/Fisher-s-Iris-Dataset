@@ -13,7 +13,6 @@ in which the rows represent individual elements of the dataset,
 and the columns represent quantities related to each of these elements.
 
 
-
 # data set #
 The Iris dataset was used in R.A. Fisher's classic 1936 paper, The Use of Multiple Measurements in Taxonomic Problems, and can also be found on the UCI Machine Learning Repository.
 
@@ -27,21 +26,12 @@ PetalWidthCm
 Species
 
 ### Sklearn ###  
-#Initialise ipython
- # from sklearn import datasets
- from sklearn import datasets
-    
- # From the dataset load iris 
+
+ from sklearn import datasets  
  iris = datasets.load_iris()
- #print iris
- print (iris)
+  print (iris)
     
 #https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting
-
-## Data as table ##  (IRIS.CSV)
-   A basic table is a two-dimensional grid of data, 
-in which the rows represent individual elements of the dataset, 
-and the columns represent quantities related to each of these elements.
 
 ## Data Frame ## 
 
