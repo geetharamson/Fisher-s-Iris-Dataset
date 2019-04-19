@@ -11,9 +11,19 @@ Based on the combination of these four features, Fisher developed a linear discr
 
 
 ## data set ##
+The Iris dataset was used in R.A. Fisher's classic 1936 paper, The Use of Multiple Measurements in Taxonomic Problems, and can also be found on the UCI Machine Learning Repository.
 
-## Iris data. CSV ##
-### Data as table ###
+It includes three iris species with 50 samples each as well as some properties about each flower. One flower species is linearly separable from the other two, but the other two are not linearly separable from each other.
+
+The columns in this dataset are:
+SepalLengthCm
+SepalWidthCm
+PetalLengthCm
+PetalWidthCm
+Species
+
+
+### Data as table ###  (IRIS.CSV)
    A basic table is a two-dimensional grid of data, 
 in which the rows represent individual elements of the dataset, 
 and the columns represent quantities related to each of these elements.
