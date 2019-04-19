@@ -31,9 +31,11 @@ Species
  iris = datasets.load_iris()
   print (iris)
     
-#https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting
+https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting
 
 ## Data Frame ## 
 
 
-# Reference ###
+# Reference 
+
+http://archive.ics.uci.edu/ml/datasets/Iris
