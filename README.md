@@ -7,6 +7,16 @@ The data set consists of 50 samples from each of three species of Iris (Iris set
 Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.
 
 # dataframe #
+
+
+
 ## data set ##
+
+## Iris data. CSV ##
+### Data as table ###
+   A basic table is a two-dimensional grid of data, 
+in which the rows represent individual elements of the dataset, 
+and the columns represent quantities related to each of these elements.
+
 
 ### Reference ###
