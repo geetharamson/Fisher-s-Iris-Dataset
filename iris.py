@@ -48,6 +48,8 @@ import matplotlib.pyplot as plt
 iris = sns.load_dataset("iris")
 g = sns.PairGrid(iris)
 g.map(plt.scatter);  
+g = sns.PairGrid(iris, vars=["sepal_length", "sepal_width"])
+g = g.map(plt.scatter)
 Adapted from http://seaborn.pydata.org/tutorial/axis_grids.html?highlight=iris%20dataset
 # Adapted from  https://stackoverflow.com/a/38105540   
 #https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting
