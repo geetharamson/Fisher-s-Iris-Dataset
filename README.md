@@ -13,7 +13,7 @@ in which the rows represent individual elements of the dataset,
 and the columns represent quantities related to each of these elements.
 
 
-# data set #
+# Data set #
 The Iris dataset was used in R.A. Fisher's classic 1936 paper, The Use of Multiple Measurements in Taxonomic Problems, and can also be found on the UCI Machine Learning Repository.
 
 It includes three iris species with 50 samples each as well as some properties about each flower. One flower species is linearly separable from the other two, but the other two are not linearly separable from each other.
@@ -44,6 +44,14 @@ g = sns.PairGrid(iris)
 g.map(plt.scatter);
 [ link](http://seaborn.pydata.org/tutorial/axis_grids.html?highlight=iris%20dataset)
 
+## Images
+
+
+Here's our logo (hover to see the title text):
+
+Inline-style: 
+![alt text]( "http://seaborn.pydata.org/_images/seaborn-PairGrid-1.png")
+("http://seaborn.pydata.org/_images/seaborn-PairGrid-5.png")
 
 
 # Reference 
