@@ -36,6 +36,14 @@ https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-th
 ## Data Frame ## 
 
 
+# To plot the graph 
+import seaborn as sns
+import matplotlib.pyplot as plt
+iris = sns.load_dataset("iris")
+g = sns.PairGrid(iris)
+g.map(plt.scatter);
+[I'm an inline-style link](http://seaborn.pydata.org/tutorial/axis_grids.html?highlight=iris%20dataset)
+
 
 
 # Reference 
