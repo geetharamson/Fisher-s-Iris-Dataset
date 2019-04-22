@@ -35,7 +35,7 @@ Species
 https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting
 
 ## Data Frame ## 
-
+df = pd.read_csv(iris, sep=',')
 
 # To plot the graph 
 `import seaborn as sns
