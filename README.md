@@ -46,10 +46,7 @@ g.map(plt.scatter);`
 [ link](http://seaborn.pydata.org/tutorial/axis_grids.html?highlight=iris%20dataset)
 
 ## Images
-![alt text] (https://1drv.ms/u/s!Ap9A9jW2Nm_mgkWp6HgKBRIoA0a0/.jpg)
-
-Here's our logo (hover to see the title text):
-
+![alt text] (geetharamson/Fisher-s-Iris-Dataset/Iris graph1.PNG  )
 Inline-style: 
 ![alt text]( "http://seaborn.pydata.org/_images/seaborn-PairGrid-1.png")
 ("http://seaborn.pydata.org/_images/seaborn-PairGrid-5.png")
