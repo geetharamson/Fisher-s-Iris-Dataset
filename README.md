@@ -9,8 +9,9 @@ Based on the combination of these four features, Fisher developed a linear discr
 ## Data as table   (IRIS.CSV) ##
 
    A basic table is a two-dimensional grid of data, 
-in which the rows represent individual elements of the dataset, 
+in which the rows represent individual elements of the dataset,
 and the columns represent quantities related to each of these elements.
+The columns in this table are SepalLength, SepalWidth,PetalLength,PetalWidth and Species .
 
 
 # Data set #
@@ -45,7 +46,7 @@ g.map(plt.scatter);`
 [ link](http://seaborn.pydata.org/tutorial/axis_grids.html?highlight=iris%20dataset)
 
 ## Images
-
+![alt text] (https://1drv.ms/u/s!Ap9A9jW2Nm_mgkWp6HgKBRIoA0a0/.jpg)
 
 Here's our logo (hover to see the title text):
 
