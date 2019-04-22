@@ -37,11 +37,11 @@ https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-th
 
 
 # To plot the graph 
-import seaborn as sns
+`import seaborn as sns
 import matplotlib.pyplot as plt
 iris = sns.load_dataset("iris")
 g = sns.PairGrid(iris)
-g.map(plt.scatter);
+g.map(plt.scatter);`
 [ link](http://seaborn.pydata.org/tutorial/axis_grids.html?highlight=iris%20dataset)
 
 ## Images
