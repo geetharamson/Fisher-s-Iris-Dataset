@@ -42,7 +42,7 @@ import matplotlib.pyplot as plt
 iris = sns.load_dataset("iris")
 g = sns.PairGrid(iris)
 g.map(plt.scatter);
-[I'm an inline-style link](http://seaborn.pydata.org/tutorial/axis_grids.html?highlight=iris%20dataset)
+[ link](http://seaborn.pydata.org/tutorial/axis_grids.html?highlight=iris%20dataset)
 
 
 
