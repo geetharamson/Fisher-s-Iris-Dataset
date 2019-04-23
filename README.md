@@ -38,7 +38,13 @@ Adapted from [link](https://scikit-learn.org/stable/tutorial/basic/tutorial.html
 df = pd.read_csv('C:/Users/geeth/Desktop/problemset-pands/Iris.csv')
 ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/df.JPG)
 
-
+df.head()
+  This dataframe command displays the top five contents in table.
+![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/irisdf2.JPG)
+df.describe()
+displays the row names -(Sepal_length,sepal_width,petal_length,petal_width,Species) and also
+displays the count,unique,top, frequency from the datatable.
+![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris%20df3.JPG)
 
 # To plot the graph 
 import seaborn as sns
