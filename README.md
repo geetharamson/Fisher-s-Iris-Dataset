@@ -39,6 +39,7 @@ df = pd.read_csv('C:/Users/geeth/Desktop/problemset-pands/Iris.csv')
 ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/df.JPG)
 
 
+
 # To plot the graph 
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -53,6 +54,7 @@ Adapted from
 
 
 # Reference 
+### https://pandas.pydata.org/pandas-docs/stable/getting_started/basics.html#basics
 ### http://archive.ics.uci.edu/ml/datasets/Iris
 ### https://www.youtube.com/watch?v=hd1W4CyPX58
 ### https://gist.github.com/curran/a08a1080b88344b0c8a7
