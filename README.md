@@ -26,14 +26,15 @@ PetalLengthCm
 PetalWidthCm
 Species
 
-### Sklearn ###  
+##Data sets using Sklearn ###  
 
  from sklearn import datasets  
  iris = datasets.load_iris()
  print (iris)
     
-https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting
-
+Adapted from [link](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
+###Images
+![alt text]( https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris%20array.jpg)
 ## Data Frame ## 
 df = pd.read_csv(iris, sep=',')
 
@@ -43,13 +44,12 @@ import matplotlib.pyplot as plt
 iris = sns.load_dataset("iris")
 g = sns.PairGrid(iris)
 g.map(plt.scatter);`
-[ link](http://seaborn.pydata.org/tutorial/axis_grids.html?highlight=iris%20dataset)
+Adapted from 
+[ link](http://seaborn.pydata.org)
+### Images
+![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/Iris%20graph1.PNG)
+![alt text]( 
 
-## Images
-![alt text](geetharamson/Fisher-s-Iris-Dataset/Iris graph1.PNG  )
-Inline-style: 
-![alt text]( "http://seaborn.pydata.org/_images/seaborn-PairGrid-1.png")
-("http://seaborn.pydata.org/_images/seaborn-PairGrid-5.png")
 
 
 # Reference 
