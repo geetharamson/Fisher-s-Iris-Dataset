@@ -35,16 +35,18 @@ Adapted from [link](https://scikit-learn.org/stable/tutorial/basic/tutorial.html
 ### Images ###
 ![alt text]( https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris%20array.jpg)
 ## Data Frame ## 
-df = pd.read_csv('C:/Users/geeth/Desktop/problemset-pands/Iris.csv')
+#####df = pd.read_csv('C:/Users/geeth/Desktop/problemset-pands/Iris.csv')
 ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/df.JPG)
 
-df.head()
+#####df.head()
   This dataframe command displays the top five contents in table.
 ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/irisdf2.JPG)
-df.describe()
-displays the row names -(Sepal_length,sepal_width,petal_length,petal_width,Species) and also
-displays the count,unique,top, frequency from the datatable.
-![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris%20df3.JPG)
+
+#####df.describe()
+displays the row names -(Sepal_length,sepal_width,petal_length,petal_width,Species) and also count, mean,std,min,25%,50%,75%,max.
+
+![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/irisdf3.JPG)
+
 
 # To plot the graph 
 import seaborn as sns
@@ -64,3 +66,4 @@ Adapted from
 ### http://archive.ics.uci.edu/ml/datasets/Iris
 ### https://www.youtube.com/watch?v=hd1W4CyPX58
 ### https://gist.github.com/curran/a08a1080b88344b0c8a7
+### https://www.kaggle.com/gopaltirupur/iris-data-analysis-and-machine-learning-python
