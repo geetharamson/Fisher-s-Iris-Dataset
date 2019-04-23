@@ -32,7 +32,7 @@ SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm,Species
  print (iris)
     
 Adapted from [link](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
-### Images
+### Images ###
 ![alt text]( https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris%20array.jpg)
 ## Data Frame ## 
 df = pd.read_csv(iris, sep=',')
