@@ -35,7 +35,9 @@ Adapted from [link](https://scikit-learn.org/stable/tutorial/basic/tutorial.html
 ### Images ###
 ![alt text]( https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris%20array.jpg)
 ## Data Frame ## 
-df = pd.read_csv(iris, sep=',')
+df = pd.read_csv('C:/Users/geeth/Desktop/problemset-pands/Iris.csv')
+![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/df.JPG)
+
 
 # To plot the graph 
 import seaborn as sns
