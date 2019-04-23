@@ -12,7 +12,7 @@ Based on the combination of these four features, Fisher developed a linear discr
 in which the rows represent individual elements of the dataset,
 and the columns represent quantities related to each of these elements.
 The columns in this table are SepalLength, SepalWidth,PetalLength,PetalWidth and Species .
-![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris.csv)
+[link](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris.csv)
 
 
 # Data set #
