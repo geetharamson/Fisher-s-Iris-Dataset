@@ -6,12 +6,13 @@ introduced by the British statistician and biologist Ronald Fisher in his 1936 p
 The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters.
 Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.
 
-## Data as table  (IRIS.CSV) ##
+## Data as table  ##
 
    A basic table is a two-dimensional grid of data, 
 in which the rows represent individual elements of the dataset,
 and the columns represent quantities related to each of these elements.
 The columns in this table are SepalLength, SepalWidth,PetalLength,PetalWidth and Species .
+![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris.csv)
 
 
 # Data set #
@@ -50,3 +51,4 @@ Adapted from
 # Reference 
 ### http://archive.ics.uci.edu/ml/datasets/Iris
 ### https://www.youtube.com/watch?v=hd1W4CyPX58
+### https://gist.github.com/curran/a08a1080b88344b0c8a7
