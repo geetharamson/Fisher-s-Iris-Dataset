@@ -25,11 +25,11 @@ SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm,Species
 
 [link](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris%20series.JPG)
 
-##Data sets using Sklearn ##  
+## Data sets using Sklearn ##  
 
  from sklearn import datasets  
- iris = datasets.load_iris()
- print (iris)
+ iris = datasets.load_iris() 
+  print (iris)
     
 Adapted from [link](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
 ### Images ###
