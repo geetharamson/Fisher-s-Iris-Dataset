@@ -36,17 +36,30 @@ Adapted from [link](https://scikit-learn.org/stable/tutorial/basic/tutorial.html
 ![alt text]( https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris%20array.jpg)
 ## Data Frame ## 
 #####df = pd.read_csv('C:/Users/geeth/Desktop/problemset-pands/Iris.csv')
+df
+  Got the variable values for the Iris species of flowers and its sepal and petal specifications in a txt file format
+  and saved as csv. In this dataframe we are asking pandas to read the file from my folder in my pc.
 ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/df.JPG)
 
 #####df.head()
   This dataframe command displays the top five contents in table.
-![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/irisdf2.JPG)
+![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/df1.JPG)
 
 #####df.describe()
 displays the row names -(Sepal_length,sepal_width,petal_length,petal_width,Species) and also count, mean,std,min,25%,50%,75%,max.
+![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/df1.JPG)
 
-![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/irisdf3.JPG)
+#####df.info()
+ This dataframe gives the information on class, range index,datacolumns, sepal and petal's width and length,species, datatypes and the memory usage.
+![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/df2.JPG)
 
+##### mad (Mean Absolute Deviation)
+ This dataframe shows the mean absolute deviation .
+ 
+ pd.DataFrame(df.mad() , columns = ["Mad"] ).T 
+Adapted from ![alt text](https://stackoverflow.com/a/38546205)
+
+![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/df4.JPG)
 
 # To plot the graph 
 import seaborn as sns
