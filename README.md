@@ -1,13 +1,13 @@
 # Fisher's-Iris-Dataset
+
 # GEETHA KARTHIKESAN , 2019
+
 The Iris flower data set or
 Fisher's Iris data set is a multivariate data set 
 introduced by the British statistician and biologist Ronald Fisher in his 1936 paper.
 The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters.
 Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.
 
-# Requirements needed to work on the code oneself
-  iPython and Python which has packages 
 ## Data as table  ##
    A basic table is a two-dimensional grid of data, 
 in which the rows represent individual elements of the dataset,
@@ -17,14 +17,14 @@ The columns in this table are SepalLength, SepalWidth,PetalLength,PetalWidth and
 
 
 # Data set #
+
 The Iris dataset was used in R.A. Fisher's classic 1936 paper, The Use of Multiple Measurements in Taxonomic Problems, and can also be found on the UCI Machine Learning Repository.
-
 It includes three iris species with 50 samples each as well as some properties about each flower. One flower species is linearly separable from the other two, but the other two are not linearly separable from each other.
-
 The columns in this dataset are:
 SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm,Species
 
 [link](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris%20series.JPG)
+
 
 ## Data sets using Sklearn ##  
 
@@ -33,16 +33,18 @@ SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm,Species
   print (iris) 
     
 Adapted from [link](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
- Investigating the data
- 
+ Investigating the data : :
+    To investigate the output data for the given input Iris data like the column(), shape(),
+    min(),max(),mean(),std(),median(),head(),tail().
   
   iris_data = pd.read_csv('C:/Users/geeth/Desktop/problemset-pands/Iris.csv')
   iris_data.columns = ['sepal_length', 'sepal_width' , 'petal_length', 'petal_width', 'species']
   iris_data.head(10)
   iris_data.shape  
+  
   ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/data.JPG)
    
-   iris_data.min()
+   iris_data.min() 
    iris_data.max()
    iris_data.mean()
    iris_data.std()
