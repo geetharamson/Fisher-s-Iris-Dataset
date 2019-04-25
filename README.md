@@ -33,7 +33,7 @@ SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm,Species
         print (iris) 
     
 Adapted from [link](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
- Investigating the data : :
+ ### Investigating the data :-
     To investigate the output data for the given input Iris data like the column(), shape(),
     min(),max(),mean(),std(),median(),head(),tail().
   
