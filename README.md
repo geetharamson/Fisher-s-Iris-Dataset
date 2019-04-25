@@ -24,13 +24,14 @@ The columns in this dataset are:
 SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm,Species
 
 [link](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris%20series.JPG)
-
+  
+![alt text]( https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris%20array.jpg)
 
 ## Data sets using Sklearn ##  
 
-## H2 from sklearn import datasets  
+Emphasis,aka italics,with *asteriks from sklearn import datasets  
  iris = datasets.load_iris() 
-  print (iris) 
+  print (iris) *
     
 Adapted from [link](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
  Investigating the data : :
@@ -65,8 +66,14 @@ First with a boxplot which is going to be in the univariate form for each measur
      ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/data3.JPG)
      ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/plot.JPG)
      
-### Images ###
-![alt text]( https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris%20array.jpg)
+     Histogram style of plotting the graph is
+       iris_data.hist()
+       plt.show()
+       
+   ![alt text]( https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/data4.JPG)
+   ![alt text]( https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/plot2.jpeg)
+     
+   
 ## Data Frame ## 
 #####df = pd.read_csv('C:/Users/geeth/Desktop/problemset-pands/Iris.csv')
 df
