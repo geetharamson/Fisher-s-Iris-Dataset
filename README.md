@@ -28,18 +28,18 @@ SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm,Species
 
 ## Data sets using Sklearn ##  
 
- from sklearn import datasets  
+Emphasis,* from sklearn import datasets  
  iris = datasets.load_iris() 
-  print (iris)
+  print (iris) *
     
 Adapted from [link](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
  Investigating the data
  
-  Emphasis,*
+  
   iris_data = pd.read_csv('C:/Users/geeth/Desktop/problemset-pands/Iris.csv')
   iris_data.columns = ['sepal_length', 'sepal_width' , 'petal_length', 'petal_width', 'species']
   iris_data.head(10)
-  iris_data.shape  *
+  iris_data.shape  
   ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/data.JPG)
    
    iris_data.min()
