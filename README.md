@@ -33,6 +33,19 @@ SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm,Species
   print (iris)
     
 Adapted from [link](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
+ Investigating the data
+ 
+  Emphasis, aka italics, with *asterisks* or _underscores_.
+  iris_data = pd.read_csv('C:/Users/geeth/Desktop/problemset-pands/Iris.csv')
+  iris_data.columns = ['sepal_length', 'sepal_width' , 'petal_length', 'petal_width', 'species']
+   iris_data.head(10)
+   
+   iris_data.shape
+   iris_data.min()
+   iris_data.max()
+   iris_data.mean()
+
+
 ### Images ###
 ![alt text]( https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris%20array.jpg)
 ## Data Frame ## 
