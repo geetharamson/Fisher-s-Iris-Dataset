@@ -28,9 +28,9 @@ SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm,Species
 
 ## Data sets using Sklearn ##  
 
-Emphasis,* from sklearn import datasets  
+## H2 from sklearn import datasets  
  iris = datasets.load_iris() 
-  print (iris) *
+  print (iris) 
     
 Adapted from [link](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
  Investigating the data
