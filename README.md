@@ -38,14 +38,31 @@ Adapted from [link](https://scikit-learn.org/stable/tutorial/basic/tutorial.html
   Emphasis, aka italics, with *asterisks* or _underscores_.
   iris_data = pd.read_csv('C:/Users/geeth/Desktop/problemset-pands/Iris.csv')
   iris_data.columns = ['sepal_length', 'sepal_width' , 'petal_length', 'petal_width', 'species']
-   iris_data.head(10)
+  iris_data.head(10)
+  iris_data.shape
+  ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/data.JPG)
    
-   iris_data.shape
    iris_data.min()
    iris_data.max()
    iris_data.mean()
+   iris_data.std()
+   ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/data1.JPG)
+    iris_data.median()
+    iris_data.head()
+    iris_data.tail()
+    iris_data.isnull()
+   ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/data2.JPG)
+   
+ ##  Data Visualize 
 
-
+First with a boxplot which is going to be in the univariate form for each measurement. 
+   ~box and whisker plots
+   iris_data.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
+   plt.show()
+   Adapted from  [link] https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
+     ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/data3.JPG)
+     ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/plot.JPG)
+     
 ### Images ###
 ![alt text]( https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris%20array.jpg)
 ## Data Frame ## 
@@ -81,8 +98,7 @@ import matplotlib.pyplot as plt
 iris = sns.load_dataset("iris")
 g = sns.PairGrid(iris)
 g.map(plt.scatter);
-Adapted from 
-[ link](http://seaborn.pydata.org)
+Adapted from [ link](http://seaborn.pydata.org)
 ### Images
 ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/Iris%20graph1.PNG)
 
@@ -94,4 +110,4 @@ Adapted from
 ### https://www.youtube.com/watch?v=hd1W4CyPX58
 ### https://gist.github.com/curran/a08a1080b88344b0c8a7
 ### https://www.kaggle.com/gopaltirupur/iris-data-analysis-and-machine-learning-python
-
+### https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
