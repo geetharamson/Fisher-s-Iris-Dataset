@@ -28,28 +28,28 @@ SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm,Species
 ![alt text]( https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/iris%20array.jpg)
 
 ## Data sets using Sklearn ##  
-
-Emphasis,aka italics,with *asteriks from sklearn import datasets  
- iris = datasets.load_iris() 
-  print (iris) *
+       from sklearn import datasets  
+        iris = datasets.load_iris() 
+        print (iris) 
     
 Adapted from [link](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
  Investigating the data : :
     To investigate the output data for the given input Iris data like the column(), shape(),
     min(),max(),mean(),std(),median(),head(),tail().
   
-  iris_data = pd.read_csv('C:/Users/geeth/Desktop/problemset-pands/Iris.csv')
-  iris_data.columns = ['sepal_length', 'sepal_width' , 'petal_length', 'petal_width', 'species']
-  iris_data.head(10)
-  iris_data.shape  
+    iris_data = pd.read_csv('C:/Users/geeth/Desktop/problemset-pands/Iris.csv')
+    iris_data.columns = ['sepal_length', 'sepal_width' , 'petal_length', 'petal_width', 'species']
+    iris_data.head(10)
+    iris_data.shape  
   
   ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/data.JPG)
    
-   iris_data.min() 
-   iris_data.max()
-   iris_data.mean()
-   iris_data.std()
+     iris_data.min() 
+     iris_data.max()
+     iris_data.mean()
+     iris_data.std()
    ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/data1.JPG)
+   
     iris_data.median()
     iris_data.head()
     iris_data.tail()
@@ -59,9 +59,11 @@ Adapted from [link](https://scikit-learn.org/stable/tutorial/basic/tutorial.html
  ##  Data Visualize 
 
 First with a boxplot which is going to be in the univariate form for each measurement. 
-   ~box and whisker plots
-   iris_data.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
-   plt.show()
+                  
+   
+      #box and whisker plots
+      iris_data.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
+      plt.show()
    Adapted from  [link] https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
      ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/data3.JPG)
      ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/plot.JPG)
@@ -75,38 +77,40 @@ First with a boxplot which is going to be in the univariate form for each measur
      
    
 ## Data Frame ## 
-#####df = pd.read_csv('C:/Users/geeth/Desktop/problemset-pands/Iris.csv')
-df
   Got the variable values for the Iris species of flowers and its sepal and petal specifications in a txt file format
   and saved as csv. In this dataframe we are asking pandas to read the file from my folder in my pc.
+  
+    df = pd.read_csv('C:/Users/geeth/Desktop/problemset-pands/Iris.csv')
+    df
 ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/df.JPG)
 
-#####df.head()
+    df.head()
   This dataframe command displays the top five contents in table.
 ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/df1.JPG)
 
-##### df.describe()
+    df.describe()
 displays the row names -(Sepal_length,sepal_width,petal_length,petal_width,Species) and also count, mean,std,min,25%,50%,75%,max.
 ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/df1.JPG)
 
-##### df.info()
+    df.info()
  This dataframe gives the information on class, range index,datacolumns, sepal and petal's width and length,species, datatypes and the memory usage.
 ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/df2.JPG)
 
 ##### mad (Mean Absolute Deviation)
  This dataframe shows the mean absolute deviation .
  
- pd.DataFrame(df.mad() , columns = ["Mad"] ).T 
+    pd.DataFrame(df.mad() , columns = ["Mad"] ).T 
 Adapted from ![alt text](https://stackoverflow.com/a/38546205)
 
 ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/df4.JPG)
 
 # To plot the graph 
-import seaborn as sns
-import matplotlib.pyplot as plt
-iris = sns.load_dataset("iris")
-g = sns.PairGrid(iris)
-g.map(plt.scatter);
+
+    import seaborn as sns
+    import matplotlib.pyplot as plt
+    iris = sns.load_dataset("iris")
+    g = sns.PairGrid(iris)
+    g.map(plt.scatter);
 Adapted from [ link](http://seaborn.pydata.org)
 ### Images
 ![alt text](https://github.com/geetharamson/Fisher-s-Iris-Dataset/blob/master/Iris%20graph1.PNG)
